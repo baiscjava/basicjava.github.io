@@ -7,6 +7,7 @@ tags:
     - String
     - StringBuilder
     - StringBuffer
+    - 区别
 ---
 
 #### 1. String
@@ -31,4 +32,4 @@ tags:
 (2) 其原因是因为StringBuffer的append和insert实现加上了synchronized的关键字
 
 #### 参考资料:
-1. Java document的搜索入口: https://docs.oracle.com/javase/tutorial/search.html
+1. Java document的搜索入口: [https://docs.oracle.com/javase/tutorial/search.html](https://docs.oracle.com/javase/tutorial/search.html)
