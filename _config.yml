@@ -1,0 +1,97 @@
+# Site settings
+title: Yin Haomin's Blog
+SEOTitle: 殷浩民的博客 | Yin Haomin's Blog
+header-img: img/home-bg.jpg
+tagline: ''
+sidebar_image: /img/sea.jpg
+lang: 'zh-cmn-Hans'
+url: http://www.yinhaomin.com/
+author: Yin Haomin
+plus: https://www.facebook.com/dave.yi.3
+description: "关于服务器端开发和设计 | 数据的检索 | 数据抓取 | 殷浩民 Yin Haomin| Software Engineer"
+keyword: "关于服务器端开发和设计 | 数据的检索 | 数据抓取 | 殷浩民 Yin Haomin| Software Engineer"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+baseurl: # the subpath of your site, e.g. /blog/
+
+permalink:   /:categories/:title/
+paginate: 8
+paginate_path: "/page:num/"
+
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+# Duoshuo settings
+duoshuo_username: yinhaomin
+# Share component is depend on Comment so we can NOT use share only.
+duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: c54eadfcc0d65d8b19556ca80774c775
+# Google Analytics
+ga_track_id: 'UA-76384105-1'            # Format: UA-xxxxxx-xx
+ga_domain: yinhaomin.com
+
+# SNS settings
+RSS: false
+weibo_username:     u/3926974186
+zhihu_username:     david-yin-zhihu
+github_username:    yinhaomin
+#twitter_username:  DavidYiSH
+facebook_username:  dave.yi.3
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "如果这里战胜， 其他任何地方都能战胜。 这个世界如此美好， 值得人们为它奋斗。"
+sidebar-avatar: /img/search.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+# Friends
+friends: [
+    {
+        title: "m5jun's blog",
+        href: "http://www.m5jun.com"
+    },{
+        title: "Hux Blog",
+        href: "http://huangxuan.me"
+    },{
+        title: "百度",
+        href: "http://www.baidu.com"
+    },{
+        title: "Knight's Blog",
+        href: "http://www.liaoqiqi.com/"
+    },{
+        title: "百度统计",
+        href: "http://tongji.baidu.com"
+    },{
+        title: "百度惠",
+        href: "http://hui.baidu.com"
+    },{
+        title: "我的Github",
+        href: "https://github.com/yinhaomin"
+    },{
+        title: "Ray's Blog",
+        href: "http://www.predatorray.me/"
+    },{
+        title: "张立理的宅居",
+        href: "http://otakustay.com/"
+    },{
+        title: "张旭的博客",
+        href: "http://neoremind.com/"
+    },{
+        title: "JBlog",
+        href: "http://www.race604.com/"
+    },{
+        title: "黄坤的博客",
+        href: "http://oragekk.me/"
+    }
+]
