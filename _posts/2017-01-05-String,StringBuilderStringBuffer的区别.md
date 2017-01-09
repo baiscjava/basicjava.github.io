@@ -20,7 +20,7 @@ tags:
 #### 2. StringBuilder
 (1) StringBuilder在内存中是char array
 
-(2) append方法，当 原始大小X2+2 小于 目标大小 时，使用目标大小，创建出来新的array否则，capacity为：原始大小X2+2，使用这个capacity创建array
+(2) append方法，当 原始大小X2+2 小于 目标大小 时，使用目标大小，创建出来新的array。 否则，capacity为：原始大小X2+2，使用这个capacity创建array
 
 (3) StringBuilder因为上述的append或者insert的时候，扩充其大小的方法实现，导致了它是线程不安全的
 
