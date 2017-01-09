@@ -1,7 +1,7 @@
 # Site settings
-title: Yin Haomin's Blog
+title: Dig Java Blog
 SEOTitle: 殷浩民的博客 | Yin Haomin's Blog
-header-img: img/home-bg.jpg
+header-img: img/beach2.jpg
 tagline: ''
 sidebar_image: /img/sea.jpg
 lang: 'zh-cmn-Hans'
@@ -58,6 +58,9 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
+        title: "本人的博客",
+        href: "http://www.yinhaomin.com"
+    },{
         title: "m5jun's blog",
         href: "http://www.m5jun.com"
     },{
