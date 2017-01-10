@@ -31,5 +31,9 @@ tags:
 
 (2) 其原因是因为StringBuffer的append和insert实现加上了synchronized的关键字
 
+经过上面的比较，当进行大量的数据的concatenate的时候，如果使用String的"+"的话，虽然"+"每次都会被转化为StringBuilder的append方法，但是却使用不到StringBuilder的append方法增加capacity策略，这个策略会导致char数组的新建会大大的减少。而String的每一次"+"运算，都新建char数组，因而StringBuilder可以在append的时候，效率优于String的"+"
+
+另外String的concat方法可以保证每一次String的concatenate，新建的char array都是目标大小的，所以，当我们已知仅仅会做一次concatenate的时候，用String的concat方法更加节省空间。
+
 #### 参考资料:
 1. Java document的搜索入口: [https://docs.oracle.com/javase/tutorial/search.html](https://docs.oracle.com/javase/tutorial/search.html)
