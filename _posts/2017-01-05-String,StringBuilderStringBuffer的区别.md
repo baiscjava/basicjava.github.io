@@ -10,7 +10,7 @@ tags:
     - 区别
 ---
 
-String,StringBuilder和StringBuffer，虽然在日常开发中都在用，但是细致的区别我们都了解吗？而且这也是一个经典的面试题，体验你平时工作是否有深入研究和刨根问底的精神。
+String,StringBuilder和StringBuffer，虽然在日常开发中都在用，但是细致的区别我们都了解吗？而且这也是一个经典的面试题，检验你平时工作是否有深入研究和刨根问底的精神。
 
 #### 1. String
 (1) String新建出来的数据是不可变化的，因为String是个final的类，并且String是基本类型，其数据在内存中创建出来后不能够被修改。
