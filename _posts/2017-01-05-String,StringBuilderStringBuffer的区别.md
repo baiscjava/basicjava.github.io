@@ -10,6 +10,8 @@ tags:
     - 区别
 ---
 
+String,StringBuilder和StringBuffer，虽然在日常开发中都在用，但是细致的区别我们都了解吗？而且这也是一个经典的面试题，体验你平时工作是否有深入研究和刨根问底的精神。
+
 #### 1. String
 (1) String新建出来的数据是不可变化的，因为String是个final的类，并且String是基本类型，其数据在内存中创建出来后不能够被修改。
 
@@ -31,6 +33,7 @@ tags:
 
 (2) 其原因是因为StringBuffer的append和insert实现加上了synchronized的关键字
 
+#### 总结
 经过上面的比较，当进行大量的数据的concatenate的时候，如果使用String的"+"的话，虽然"+"每次都会被转化为StringBuilder的append方法，但是却使用不到StringBuilder的append方法增加capacity策略带来的好处，这个策略会导致char数组的新建会大大的减少。
 
 而String的每一次"+"运算，都新建char数组，因而StringBuilder可以在append的时候，效率优于String的"+"
