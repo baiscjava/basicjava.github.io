@@ -10,6 +10,7 @@ tags:
     - equals
     - hashcode
 ---
+
 在Java中，基本数据类型的比对，我们一般使用">,<,==,<=,>="和object.equals进行数据的比对，以及object还有一个hashcode方法，为了搞清楚这些东西，下面我们一一剖析下。
 
 #### 1. 使用"=="对比数据值
