@@ -58,16 +58,25 @@ tags:
 从上面可以知道
 1. JVM对于-128到127之间的数据，进行缓存，凡创建这个区间的数据，都不会开辟新的空间。
 2. 对于这个范围以外的数据，都进行空间的开辟，而这个数据范围是可以调整的。
-3. 使用"=="进行数据比对，比较的是两个数据的内存地址是否一样，也用来比较两个基本数据类型的变量值是否相等。而equals进行比对，则是比较的两个数据的对象的hash值是否相等。
+3. 使用"=="进行数据比对，比较的是两个数据的内存地址是否一样，也用来比较两个基本数据类型的变量值是否相等。
+而equals进行比对，Object类中对比的是其内存地址是否一样，但是这个方法可以被重写，比如String的equals比较的就是String的具体的值是否一样。
+一般来讲，我们重写equals的时候，有必要重写hashcode这个方法，hashcode默认和内存的地址有关，不重写的话，数据放入到HashSet或者HashMap时会出现问题。
+4. 在进行大小比较的时候，Integer会自动的拆箱
 
 #### 3. String的自动装箱和自动拆
 ```
-
+           String str1 ="abc";
+           String str2 ="abc";
+           System.out.println(str2==str1);  //输出为 true 
+           System.out.println(str2.equals(str1));  //输出为 true 
+            
+           String str3 =new String("abc");
+           String str4 =new String("abc"); 
+           System.out.println(str3==str4);  //输出为 false 
+           System.out.println(str3.equals(str4));  //输出为 true
 ```
+1. 当直接将两个字符赋给两个string的时候，两个string指向的是同一个地址
+2. 当使用new String()的时候，创建出来的数据就是不同的地址
 
 #### 4. 总结
-
-
-#### 5. 补充说明
-```
-```
+1.从上面可以看出来，Autoboxing和auto-unboxing与equals，hashcode，以及数据在内存的存储和缓存都有关系，需要将这些东西搞清楚。`
