@@ -55,7 +55,7 @@ tags:
       System.out.println("integer3.equals(int2): " + (integer3.equals(int2)));// true
       System.out.println("integer3.compare(int2): " + integer3.compareTo(int2));// 0 
 ```
-从上面可以知道
+从上面可以知道<br>
 1. JVM对于-128到127之间的数据，进行缓存，凡创建这个区间的数据，都不会开辟新的空间。<br>
 2. 对于这个范围以外的数据，都进行空间的开辟，而这个数据范围是可以调整的。<br>
 3. 使用"=="进行数据比对，比较的是两个数据的内存地址是否一样，也用来比较两个基本数据类型的变量值是否相等。<br>
