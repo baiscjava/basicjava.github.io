@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Java数据类型的大小比对
+title: Java数据类型的大小比对以及equals与hashcode
 comments: true
 author: "Yin Haomin"
 tags:
