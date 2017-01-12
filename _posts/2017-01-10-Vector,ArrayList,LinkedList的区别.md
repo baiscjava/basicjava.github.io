@@ -13,6 +13,8 @@ tags:
 本文来总结下Vector,ArrayList,LinkedList的区别，这些List类型我们经常在开发中用到，我们来讨论一下什么时候该使用什么?
 
 #### 1. Vector
+(1). 使用数组的方式存储
+(2). Vector是线程安全的，因为其方法上加上了synchronized关键字
 
 #### 2. ArrayList
 (1). 存储是一个Object[],每当有数据增加的时候，就会创建新的Object数组，并将数据写入进去。
