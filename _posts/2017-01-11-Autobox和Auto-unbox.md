@@ -18,14 +18,14 @@ tags:
 |INDEX|基本类型|大小|数值范围|默认值|包装类型|
 |:-------|:-------|:-------|:-------|:-------|:-------|
 |1|boolean|---|true,false|false|Boolean|
-|2|boolean|---|true,false|false|Boolean|
-|3|boolean|---|true,false|false|Boolean|
-|4|boolean|---|true,false|false|Boolean|
-|5|boolean|---|true,false|false|Boolean|
-|6|boolean|---|true,false|false|Boolean|
-|7|boolean|---|true,false|false|Boolean|
-|8|boolean|---|true,false|false|Boolean|
-|9|boolean|---|true,false|false|Boolean|
+|2|byte|8 bit|-2^7--2^7-1|0|Byte|
+|3|char|16 bit|\u0000 - \uffff|\u0000|Character|
+|4|short|16 bit|-2^15 -- 2^15-1|0|Short|
+|5|int|32 bit|	-2^31 -- 2^31-1|0|Integer|
+|6|long|64 bit|	-2^63 -- 2^63-1|0|Long|
+|7|float|32 bit|IEEE 754|0.0f|Float|
+|8|double|64bit|IEEE 754|0.0d|Double|
+|9|void|---|---|---|Void|
 
 
 #### 2. Integer的自动装箱和自动拆箱
