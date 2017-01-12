@@ -4,9 +4,9 @@ title: Java数据类型的大小比对以及equals与hashcode
 comments: true
 author: "Yin Haomin"
 tags:
-    - 数据对比
-    - equals
-    - hashcode
+    - 数据对比
+    - equals
+    - hashcode
 ---
 
 在Java中，基本数据类型的比对，我们一般使用">,<,==,<=,>="和object.equals进行数据的比对，以及object还有一个hashcode方法，为了搞清楚这些东西，下面我们一一剖析下。<br>
