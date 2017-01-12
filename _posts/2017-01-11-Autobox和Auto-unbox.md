@@ -5,7 +5,7 @@ comments: true
 author: "Yin Haomin"
 tags:
     - Autobox
-    - Auto-unbox
+    - AutoUnbox
 ---
 
 我们来看看自动装箱和自动拆箱。
