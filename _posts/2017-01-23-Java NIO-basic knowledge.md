@@ -13,3 +13,18 @@ Let's talk about the basic knowledge of Java NIO.<br>
 #### NIO的基本概念<br>
 1. Channel & Buffer<br>
 ![gras](/images/NIO/ChannelBuffer.jpg)<br>
+Channel有很多的实现:<br>
+FileChannel<br>
+DatagramChannel<br>
+SocketChannel<br>
+ServerSocketChannel<br>
+
+Buffer的实现:<br>
+ByteBuffer<br>
+CharBuffer<br>
+DoubleBuffer<br>
+FloatBuffer<br>
+IntBuffer<br>
+LongBuffer<br>
+ShortBuffer<br>
+
