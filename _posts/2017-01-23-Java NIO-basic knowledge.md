@@ -29,3 +29,5 @@ IntBuffer<br>
 LongBuffer<br>
 ShortBuffer<br>
 
+2. Selector<br>
+![gras](/images/NIO/Selector.jpg)<br>
