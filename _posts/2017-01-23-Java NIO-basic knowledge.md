@@ -24,3 +24,5 @@ ByteBuffer,CharBuffer,DoubleBuffer,FloatBuffer,IntBuffer,LongBuffer,ShortBuffer<
 IO在数据未获取前，一直等待到数据获取到。使用阻塞模式。
 NIO不会等待，NIO会将数据读取到Buffer中，使用的时非阻塞模式。<br>
 
+#### 参考资料<br>
+1. [Java NIO教程](http://www.iteye.com/magazines/132-Java-NIO)
