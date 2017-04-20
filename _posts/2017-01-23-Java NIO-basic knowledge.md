@@ -13,6 +13,9 @@ Let's talk about the basic knowledge of Java NIO.<br>
 #### NIO的基本概念<br>
 1. Channel & Buffer<br>
 ![gras](/images/NIO/ChannelBuffer.jpg)<br>
+(1). Buffer的本质
+它是一块可以写入数据，并且可以从中读取数据的内存。这块内存被报转化过程和NIO Buffer对象，并提供了一组方法，用来方便的访问内存。
+
 (1). Channel有很多的实现:<br>
 FileChannel,DatagramChannel,SocketChannel,ServerSocketChannel<br>
 (2). Buffer的实现:<br>
