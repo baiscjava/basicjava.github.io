@@ -18,6 +18,7 @@ Let's talk about the basic knowledge of Java NIO.<br>
 
 (1). Channel有很多的实现:<br>
 FileChannel,DatagramChannel,SocketChannel,ServerSocketChannel<br>
+Channel可以理解为就是和实体之间进行交互的一根管子，类似Stream，但是Stream是单向的管子。
 (2). Buffer的实现:<br>
 ByteBuffer,CharBuffer,DoubleBuffer,FloatBuffer,IntBuffer,LongBuffer,ShortBuffer<br>
 2. Selector<br>
