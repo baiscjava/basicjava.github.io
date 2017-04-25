@@ -25,8 +25,11 @@ ByteBuffer,CharBuffer,DoubleBuffer,FloatBuffer,IntBuffer,LongBuffer,ShortBuffer<
 ![gras](/images/NIO/Selector.jpg)<br>
 
 #### NIO与IO的区别<br>
-IO在数据未获取前，一直等待到数据获取到。使用阻塞模式。
+IO在数据未获取前，一直等待到数据获取到。使用阻塞模式。<br>
 NIO不会等待，NIO会将数据读取到Buffer中，使用的时非阻塞模式。<br>
+
+#### NIO与AIO的区别<br>
+
 
 #### 参考资料<br>
 1. [Java NIO教程](http://www.iteye.com/magazines/132-Java-NIO)
