@@ -24,11 +24,10 @@ ByteBuffer,CharBuffer,DoubleBuffer,FloatBuffer,IntBuffer,LongBuffer,ShortBuffer<
 2. Selector<br>
 ![gras](/images/NIO/Selector.jpg)<br>
 
-#### NIO与IO的区别<br>
+#### IO, NIO与AIO的区别<br>
 IO在数据未获取前，一直等待到数据获取到。使用阻塞模式。<br>
-NIO不会等待，NIO会将数据读取到Buffer中，使用的时非阻塞模式。<br>
-
-#### NIO与AIO的区别<br>
+NIO同步非阻塞，NIO会将数据读取到Buffer中，使用的时非阻塞模式。<br>
+AIO异步非阻塞<br>
 
 
 #### 参考资料<br>
