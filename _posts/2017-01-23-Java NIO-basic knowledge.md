@@ -29,3 +29,6 @@ NIO不会等待，NIO会将数据读取到Buffer中，使用的时非阻塞模�
 
 #### 参考资料<br>
 1. [Java NIO教程](http://www.iteye.com/magazines/132-Java-NIO)
+2. [攻破Java BIO](http://www.importnew.com/19816.html)
+3. [[Java]读取文件方法大全](https://www.cnblogs.com/lovebread/archive/2009/11/23/1609122.html)
+4. [Java NIO使用及原理分析 (一)](http://www.jianshu.com/p/6a2af505ca27)
