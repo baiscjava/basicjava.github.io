@@ -37,3 +37,4 @@ AIO异步非阻塞<br>
 4. [Java NIO使用及原理分析 (一)](http://www.jianshu.com/p/6a2af505ca27)
 5. [JDK7 AIO初体验](http://www.iteye.com/topic/1113611)
 6. [Java BIO、NIO、AIO概念和适用场景](http://blog.sina.com.cn/s/blog_9eb067b50102wdur.html)
+7. [生产者消费者模式和观察者模式的区别](http://www.tuicool.com/articles/UFFR32I)
