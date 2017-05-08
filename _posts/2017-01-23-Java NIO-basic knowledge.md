@@ -22,11 +22,13 @@ Buffer有三个重要的属性: position, limit, capacity<br>
 -- limit: 代表当前数据读取，或者写入能够到达的上线<br>
 -- capacity: 代表当前Buffer数据的最大容量<br>
 
+Buffer的实现:<br>
+ByteBuffer,CharBuffer,DoubleBuffer,FloatBuffer,IntBuffer,LongBuffer,ShortBuffer<br>
+
 (2). Channel有很多的实现:<br>
 FileChannel,DatagramChannel,SocketChannel,ServerSocketChannel<br>
 Channel可以理解为就是和实体之间进行交互的一根管子，类似Stream，但是Stream是单向的管子。<br>
-(3). Buffer的实现:<br>
-ByteBuffer,CharBuffer,DoubleBuffer,FloatBuffer,IntBuffer,LongBuffer,ShortBuffer<br>
+
 2. Selector<br>
 ![gras](/images/NIO/Selector.jpg)<br>
 
