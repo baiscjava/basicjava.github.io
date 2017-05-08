@@ -18,9 +18,9 @@ Let's talk about the basic knowledge of Java NIO.<br>
 ![gras](/images/NIO/nio-buffer.jpg)<br>
 Buffer有三个重要的属性: position, limit, capacity<br>
 他们的关系是: 0<=position<=limit<=capacity<br>
-position: 代表当前数据读取，或者写入所处的位置<br>
-limit: 代表当前数据读取，或者写入能够到达的上线<br>
-capacity: 代表当前Buffer数据的最大容量<br>
+-- position: 代表当前数据读取，或者写入所处的位置<br>
+-- limit: 代表当前数据读取，或者写入能够到达的上线<br>
+-- capacity: 代表当前Buffer数据的最大容量<br>
 
 (1). Channel有很多的实现:<br>
 FileChannel,DatagramChannel,SocketChannel,ServerSocketChannel<br>
