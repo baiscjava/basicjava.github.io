@@ -15,7 +15,8 @@ Let's talk about the basic knowledge of Java NIO.<br>
 ![gras](/images/NIO/ChannelBuffer.jpg)<br>
 (1). Buffer的本质
 它是一块可以写入数据，并且可以从中读取数据的内存。这块内存被报转化过程和NIO Buffer对象，并提供了一组方法，用来方便的访问内存。
-
+![gras](/images/NIO/nio-buffer.jpg)<br>
+Buffer有三个<br>
 (1). Channel有很多的实现:<br>
 FileChannel,DatagramChannel,SocketChannel,ServerSocketChannel<br>
 Channel可以理解为就是和实体之间进行交互的一根管子，类似Stream，但是Stream是单向的管子。<br>
