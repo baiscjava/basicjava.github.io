@@ -14,9 +14,14 @@ Let's talk about the basic knowledge of Java NIO.<br>
 1. Channel & Buffer<br>
 ![gras](/images/NIO/ChannelBuffer.jpg)<br>
 (1). Buffer的本质
-它是一块可以写入数据，并且可以从中读取数据的内存。这块内存被报转化过程和NIO Buffer对象，并提供了一组方法，用来方便的访问内存。
+它是一块可以写入数据，并且可以从中读取数据的内存。这块内存被报转化过程和NIO Buffer对象，并提供了一组方法，用来方便的访问内存。<br>
 ![gras](/images/NIO/nio-buffer.jpg)<br>
-Buffer有三个<br>
+Buffer有三个重要的属性: position, limit, capacity<br>
+他们的关系是: 0<=position<=limit<=capacity<br>
+position: 代表当前数据读取，或者写入所处的位置<br>
+limit: 代表当前数据读取，或者写入能够到达的上线<br>
+capacity: 代表当前Buffer数据的最大容量<br>
+
 (1). Channel有很多的实现:<br>
 FileChannel,DatagramChannel,SocketChannel,ServerSocketChannel<br>
 Channel可以理解为就是和实体之间进行交互的一根管子，类似Stream，但是Stream是单向的管子。<br>
