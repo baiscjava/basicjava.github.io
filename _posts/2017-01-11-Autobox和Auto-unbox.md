@@ -75,8 +75,15 @@ tags:
            System.out.println(str3==str4);  //输出为 false 
            System.out.println(str3.equals(str4));  //输出为 true
 ```
-1. 当直接将两个字符赋给两个string的时候，两个string指向的是同一个地址<br>
+1. 当直接将两个字符赋给两个String的时候，两个String指向的是同一个地址<br>
 2. 当使用new String()的时候，创建出来的数据就是不同的地址<br>
 
 #### 4. 总结
-1.从上面可以看出来，Autoboxing和auto-unboxing与equals，hashcode，以及数据在内存的存储和缓存都有关系，需要将这些东西搞清楚。<br>
+1. 对象比对的时候，“==”比对的是数据的内存地址是否相同，equals比对的是数据的值是否相等（前提是复写了Object的equals方法，假如没有重写equals，）
+2. 基本数据类型对比时，“==”对比的就是数据的具体的数值，equals对比的也是具体的数值。所以进本数据类型对比时，"=="和equals是等价的。
+3. 从上面可以看出来，Autoboxing和auto-unboxing与equals，hashcode，以及数据在内存的存储和缓存都有关系，需要将这些东西搞清楚。<br>
+
+#### 5. Reference
+1. [基本数据类型的成员变量放在jvm的哪块内存区域里？](http://www.cnblogs.com/hithlb/p/4872373.html)
+2. [java中的基本数据类型一定存储在栈中吗？](http://www.cnblogs.com/xiohao/p/4296059.html)
+
