@@ -42,11 +42,12 @@ Channel可以理解为就是和实体之间进行交互的一根管子，类似S
 
 
 
-#### IO, NIO与AIO的区别<br>
+#### 各种IO的区别<br>
 IO在数据未获取前，一直等待到数据获取到。使用阻塞模式。<br>
 NIO同步非阻塞，NIO会将数据读取到Buffer中，使用的时非阻塞模式。<br>
 AIO异步非阻塞<br>
 
+#### Reactor模式，Observer模式和Publish，subscribe模式的区别<br>
 
 #### 参考资料<br>
 1. [Java NIO教程](http://www.iteye.com/magazines/132-Java-NIO)
@@ -56,3 +57,9 @@ AIO异步非阻塞<br>
 5. [JDK7 AIO初体验](http://www.iteye.com/topic/1113611)
 6. [Java BIO、NIO、AIO概念和适用场景](http://blog.sina.com.cn/s/blog_9eb067b50102wdur.html)
 7. [生产者消费者模式和观察者模式的区别](http://www.tuicool.com/articles/UFFR32I)
+8. [高性能Server---Reactor模型](https://www.cnblogs.com/ivaneye/p/5731432.html)
+9. [https://stackoverflow.com/questions/26454642/observer-pattern-vs-reactor-pattern](https://stackoverflow.com/questions/26454642/observer-pattern-vs-reactor-pattern)
+10. [What is difference between publisher-subscriber and reactor patterns?](https://softwareengineering.stackexchange.com/questions/189957/what-is-difference-between-publisher-subscriber-and-reactor-patterns)
+11. [反应器(Reactor)模式](http://blog.csdn.net/linxcool/article/details/7771952)
+12. []()
+
