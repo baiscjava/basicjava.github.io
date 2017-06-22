@@ -1,18 +1,18 @@
 ---
 layout: post
-title: CountdownLock和CyclicBarrier
+title: CountDownLatch和CyclicBarrier
 comments: true
 author: "Yin Haomin"
 tags:
-    - CountdownLock
+    - CountDownLatch
     - CyclicBarrier
     - 区别
 ---
 
-我们来看看CountDownLock和CyclicBarrier的区别，用法。</br>
+我们来看看CountDownLatch和CyclicBarrier的区别，用法。</br>
 
-#### CountDownLock
-CountDownLock在多线程中应用于这种场景:<br>
+#### CountDownLatch
+CountDownLatch在多线程中应用于这种场景:<br>
 需要所有的线程结束以后，才进行下面的操作。具体的写法如下:<br>
 
 可以替代它的方案:<br>
