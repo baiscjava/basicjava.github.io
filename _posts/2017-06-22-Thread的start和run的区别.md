@@ -22,4 +22,4 @@ Runnable的实现，必须实现run方法。调用run方法，可以认为是对
 
 #### 参考资料
 1. [Thread的run（）与start（）的区别](http://blog.csdn.net/xuxurui007/article/details/7685076)<br>
-2.<br>
+2. d<br>
