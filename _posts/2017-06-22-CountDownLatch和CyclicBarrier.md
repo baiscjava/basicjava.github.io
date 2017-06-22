@@ -14,7 +14,7 @@ tags:
 #### CountDownLatch
 CountDownLatch在多线程中应用于这种场景:<br>
 需要所有的线程结束以后，才进行下面的操作。具体的写法如下:<br>
-[CountDownLatch的原理](https://github.com/yinhaomin/common-test/tree/master/common-test-service/src/main/java/com/baidu/common/test/service/cocurrency)
+[CountDownLatch的Sample](https://github.com/yinhaomin/common-test/tree/master/common-test-service/src/main/java/com/baidu/common/test/service/cocurrency)
 
 可以替代它的方案:<br>
 
@@ -23,7 +23,7 @@ CountDownLatch在多线程中应用于这种场景:<br>
 #### CyclicBarrier
 CyclicBarrier在多线程中应用于这种场景:<br>
 需要足够量的线程到达某一个状态，才进行下面的操作。具体的写法如下:<br>
-[CyclicBarrier的原理](https://github.com/yinhaomin/common-test/tree/master/common-test-service/src/main/java/com/baidu/common/test/service/cocurrency)
+[CyclicBarrier的Sample](https://github.com/yinhaomin/common-test/tree/master/common-test-service/src/main/java/com/baidu/common/test/service/cocurrency)
 
 可以替代它的方案:<br>
 []
