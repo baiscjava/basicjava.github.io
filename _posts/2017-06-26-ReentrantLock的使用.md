@@ -21,3 +21,5 @@ tags:
 
 
 #### 参考资料
+1. [ReentrantLock使用场景和实例](http://blog.csdn.net/antony9118/article/details/52664125)
+2. [分析ReentrantLock的实现原理](http://www.jianshu.com/p/fe027772e156)
