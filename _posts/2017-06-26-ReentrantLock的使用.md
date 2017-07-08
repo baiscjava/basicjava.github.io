@@ -11,7 +11,50 @@ tags:
 来看看ReentrantLock的使用。ReentrantLock的优势在于它比synchronized更灵活、更强大，增加了轮训、超时、中断等高级功能。<br>
 
 #### 1. ReentrantLock的例子
-[使用ReentrantLock例子](https://github.com/yinhaomin/common-test/tree/master/common-test-service/src/main/java/com/baidu/common/test/service/cocurrency)<br>
+```
+public class CountDownLatchTest {
+    final static SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+
+    public static void main(String[] args) throws InterruptedException {
+        CountDownLatch countDownLatch = new CountDownLatch(2);
+        new CountDwonLatchWorker("zhangsan", 1000, countDownLatch).run();
+        new CountDwonLatchWorker("lisi", 3000, countDownLatch).run();
+        countDownLatch.await();
+        System.out.println("all work done at " + sdf.format(new Date()));
+    }
+
+}
+```
+
+```
+public class CountDwonLatchWorker extends Thread {
+
+    private String name;
+
+    private int time;
+
+    private CountDownLatch countDownLatch;
+
+    public CountDwonLatchWorker(String name, int time, CountDownLatch countDownLatch) {
+        this.name = name;
+        this.time = time;
+        this.countDownLatch = countDownLatch;
+    }
+
+    @Override
+    public void run() {
+        try {
+            Thread.sleep(this.time);
+        } catch (InterruptedException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+        System.out.println(name + " ended in waiting.");
+        countDownLatch.countDown();
+    }
+}
+```
+Github: [使用ReentrantLock例子](https://github.com/yinhaomin/common-test/tree/master/common-test-service/src/main/java/com/baidu/common/test/service/cocurrency)<br>
 相关的逻辑:<br>
 ![gras](/images/aqs/CountDownLatch_usage.jpeg)<br>
 
