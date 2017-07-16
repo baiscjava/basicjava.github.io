@@ -20,7 +20,7 @@ CountDownLatch在多线程中应用于这种场景:<br>
 ![gras](/images/aqs/CountDownLatch_usage.jpeg)<br>
 
 它的相关原理:<br>
-
+![gras](/images/aqs/CountDownLatch_await.jpeg)<br>
 
 可以替代它的方案:<br>
 
