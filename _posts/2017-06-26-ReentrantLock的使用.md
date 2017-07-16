@@ -56,7 +56,6 @@ public class CountDwonLatchWorker extends Thread {
 ```
 Github: [使用ReentrantLock例子](https://github.com/yinhaomin/common-test/tree/master/common-test-service/src/main/java/com/baidu/common/test/service/cocurrency)<br>
 相关的逻辑:<br>
-![gras](/images/aqs/CountDownLatch_usage.jpeg)<br>
 
 
 #### 2. ReentrantLock的原理
