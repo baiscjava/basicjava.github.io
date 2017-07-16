@@ -20,10 +20,11 @@ CountDownLatch在多线程中应用于这种场景:<br>
 ![gras](/images/aqs/CountDownLatch_usage.jpeg)<br>
 
 它的相关原理:<br>
+1. 新建出来
 ![gras](/images/aqs/CountDownLatch_await.jpeg)<br>
 
 可以替代它的方案:<br>
-
+写代码实现类似的逻辑
 
 #### CyclicBarrier
 CyclicBarrier在多线程中应用于这种场景:<br>
