@@ -23,7 +23,7 @@ CountDownLatch在多线程中应用于这种场景:<br>
 1. 新建出来CountDownLatch并调用await后<br>
 ![gras](/images/aqs/CountDownLatch_await2.jpeg)<br>
 2. CountDownLatch调用countDown以后<br>
-
+![gras](/images/aqs/CountDownLatch_countDown.jpeg)<br>
 
 可以替代它的方案:<br>
 写代码实现类似的逻辑
