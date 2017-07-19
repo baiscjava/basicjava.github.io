@@ -17,7 +17,7 @@ CountDownLatch在多线程中应用于这种场景:<br>
 [CountDownLatch的Sample](https://github.com/yinhaomin/common-test/tree/master/common-test-service/src/main/java/com/baidu/common/test/service/cocurrency)
 
 它的相关使用的逻辑:<br>
-![gras](/images/aqs/CountDownLatch_usage.jpeg)<br>
+![gras](/images/aqs/CountDownLatch_usage2.jpeg)<br>
 
 它的相关原理:<br>
 1. 新建出来CountDownLatch并调用await后<br>
