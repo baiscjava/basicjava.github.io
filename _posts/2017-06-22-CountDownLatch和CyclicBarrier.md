@@ -21,7 +21,7 @@ CountDownLatch在多线程中应用于这种场景:<br>
 
 它的相关原理:<br>
 1. 新建出来CountDownLatch并调用await后<br>
-![gras](/images/aqs/CountDownLatch_await4.jpeg)<br>
+![gras](/images/aqs/CountDownLatch_await5.jpeg)<br>
 2. CountDownLatch调用countDown以后<br>
 ![gras](/images/aqs/CountDownLatch_countDown.jpeg)<br>
 
