@@ -26,7 +26,8 @@ CountDownLatch在多线程中应用于这种场景:<br>
 ![gras](/images/aqs/CountDownLatch_countDown2.jpeg)<br>
 
 可以替代它的方案:<br>
-写代码实现类似的逻辑
+1.根据我们对于这个原理的探知，写代码实现类似的逻辑
+2.
 
 #### CyclicBarrier
 CyclicBarrier在多线程中应用于这种场景:<br>
@@ -37,3 +38,8 @@ CyclicBarrier在多线程中应用于这种场景:<br>
 []
 
 它的相关原理是:<br>
+
+
+#### 参考资料
+1.[java共享锁实现原理及CountDownLatch解析](http://blog.csdn.net/yanyan19880509/article/details/52349056)<br>
+2.[分析CountDownLatch的实现原理](http://www.jianshu.com/p/fe027772e156)<br>
