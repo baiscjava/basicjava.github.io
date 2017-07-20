@@ -1,12 +1,13 @@
 ---
 layout: post
-title: CountDownLatch和CyclicBarrier
+title: CountDownLatch和CyclicBarrier的原理
 comments: true
 author: "Yin Haomin"
 tags:
     - CountDownLatch
     - CyclicBarrier
     - 区别
+    - 原理
 ---
 
 我们来看看CountDownLatch和CyclicBarrier的区别，用法。<br>
