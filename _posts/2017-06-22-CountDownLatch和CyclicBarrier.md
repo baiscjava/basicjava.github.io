@@ -27,7 +27,7 @@ CountDownLatch在多线程中应用于这种场景:<br>
 
 可以替代它的方案:<br>
 1.根据我们对于这个原理的探知，写代码实现类似的逻辑<br>
-2.<br>
+2.当然下面的CyclicBarrier也可以替代CountDownLatch<br>
 
 #### CyclicBarrier
 CyclicBarrier在多线程中应用于这种场景:<br>
