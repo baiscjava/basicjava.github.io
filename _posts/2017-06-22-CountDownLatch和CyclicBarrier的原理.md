@@ -10,7 +10,7 @@ tags:
     - 原理
 ---
 
-我们来看看CountDownLatch和CyclicBarrier的区别，用法。<br>
+我们来看看CountDownLatch和CyclicBarrier的用法场景，区别和原理。<br>
 
 #### CountDownLatch
 CountDownLatch在多线程中应用于这种场景:<br>
