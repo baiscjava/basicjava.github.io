@@ -39,7 +39,8 @@ CyclicBarrier在多线程中应用于这种场景:<br>
 ![gras](/images/aqs/CylicBarrier_theory.jpeg)<br>
 
 可以替代它的方案:<br>
-[]
+1.根据其逻辑代码实现
+2.使用CountDownLatch也能实现类似的功能
 
 #### 参考资料
 1.JDK源代码<br>
