@@ -35,11 +35,11 @@ CyclicBarrier在多线程中应用于这种场景:<br>
 需要足够量的线程到达某一个状态，才进行下面的操作。具体的写法如下:<br>
 [CyclicBarrier的Sample](https://github.com/yinhaomin/common-test/tree/master/common-test-service/src/main/java/com/baidu/common/test/service/cocurrency)
 
+它的相关原理是:<br>
+![gras](/images/aqs/CylicBarrier_theory.jpeg)<br>
+
 可以替代它的方案:<br>
 []
-
-它的相关原理是:<br>
-
 
 #### 参考资料
 1.JDK源代码<br>
