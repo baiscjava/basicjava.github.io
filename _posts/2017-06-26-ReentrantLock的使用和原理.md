@@ -1,11 +1,12 @@
 ---
 layout: post
-title: ReentrantLock的使用
+title: ReentrantLock的使用和原理
 comments: true
 author: "Yin Haomin"
 tags:
     - ReentrantLock
     - 使用
+    - 原理
 ---
 
 来看看ReentrantLock的使用。ReentrantLock的优势在于它比synchronized更灵活、更强大，增加了轮训、超时、中断等高级功能。<br>
