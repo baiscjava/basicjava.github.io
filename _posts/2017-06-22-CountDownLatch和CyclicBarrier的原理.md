@@ -36,7 +36,7 @@ CyclicBarrier在多线程中应用于这种场景:<br>
 [CyclicBarrier的Sample](https://github.com/yinhaomin/common-test/tree/master/common-test-service/src/main/java/com/baidu/common/test/service/cocurrency)
 
 它的相关原理是:<br>
-![gras](/images/aqs/CylicBarrier_theory.jpeg)<br>
+![gras](/images/aqs/CylicBarrier_theory2.jpeg)<br>
 
 可以替代它的方案:<br>
 1.根据其逻辑代码实现<br>
