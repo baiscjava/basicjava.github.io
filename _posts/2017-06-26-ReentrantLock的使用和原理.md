@@ -63,6 +63,9 @@ ReentrantLock还是借助了AQS(AbstractQueuedSynchronizer)这个类，在Reentr
 abstract static class Sync extends AbstractQueuedSynchronizer
 ```
 借助了AQS的state和线程打包成的Node的List，这两个超级重要的变量。这两个变量在我们分析CountDownLatch的时候，也用到了。<br>
+(1).对于公平锁(FIFO的锁，严格按照先到先得进行获取的锁)
+
+(1).对于非公平锁
 
 
 #### 3. ReentrantLock和synchronized的比较
