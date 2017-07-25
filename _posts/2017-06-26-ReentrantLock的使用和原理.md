@@ -56,11 +56,13 @@ public class CountDwonLatchWorker extends Thread {
 }
 ```
 Github: [使用ReentrantLock例子](https://github.com/yinhaomin/common-test/tree/master/common-test-service/src/main/java/com/baidu/common/test/service/cocurrency)<br>
-相关的逻辑:<br>
 
-
-#### 2. ReentrantLock的原理
-
+#### 2. ReentrantLock的原理<br>
+ReentrantLock还是借助了AQS(AbstractQueuedSynchronizer)这个类，在ReentrantLock中声明了：<br>
+```
+abstract static class Sync extends AbstractQueuedSynchronizer
+```
+借助了AQS的state和线程打包成的Node的List，这两个超级重要的变量。这两个变量在我们分析CountDownLatch的时候，也用到了。<br>
 
 
 #### 3. ReentrantLock和synchronized的比较
