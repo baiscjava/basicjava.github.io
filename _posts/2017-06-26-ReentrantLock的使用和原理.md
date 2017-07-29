@@ -71,6 +71,9 @@ lock操作<br>
 lock操作<br>
 ![gras](/images/aqs/ReentrantLock_unfair_lock.jpeg)<br>
 
+(3).释放锁<br>
+![gras](/images/aqs/ReentrantLock_unlock.jpeg)<br>
+
 #### 3. ReentrantLock和synchronized的比较
 *(1). ReentrantLock比synchronized速度较快，因为ReentrantLock默认是非公平锁，而synchronized是公平锁.<br>
 *(2). ReentrantLock的优势在于它比synchronized更灵活、更强大，增加了轮训、超时、中断等高级功能。<br>
