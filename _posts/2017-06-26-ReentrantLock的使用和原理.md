@@ -79,5 +79,6 @@ lock操作<br>
 *(2). ReentrantLock的优势在于它比synchronized更灵活、更强大，增加了轮训、超时、中断等高级功能。<br>
 
 #### 参考资料
-1. [ReentrantLock使用场景和实例](http://blog.csdn.net/antony9118/article/details/52664125)
-2. [分析ReentrantLock的实现原理](http://www.jianshu.com/p/fe027772e156)
+1. JDK package java.util.concurrent.locks;下面的源码
+2. [ReentrantLock使用场景和实例](http://blog.csdn.net/antony9118/article/details/52664125)
+3. [分析ReentrantLock的实现原理](http://www.jianshu.com/p/fe027772e156)
