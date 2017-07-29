@@ -68,7 +68,8 @@ lock操作<br>
 ![gras](/images/aqs/ReentrantLock_lock3.jpeg)<br>
 
 (2).对于非公平锁<br>
-
+lock操作<br>
+![gras](/images/aqs/ReentrantLock_unfair_lock.jpeg)<br>
 
 #### 3. ReentrantLock和synchronized的比较
 *(1). ReentrantLock比synchronized速度较快，因为ReentrantLock默认是非公平锁，而synchronized是公平锁.<br>
