@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Blocking queue
+title: BlockingQueue的原理
 comments: true
 author: "Yin Haomin"
 tags:
