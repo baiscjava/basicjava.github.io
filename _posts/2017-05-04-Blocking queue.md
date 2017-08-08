@@ -18,4 +18,3 @@ Blocking queue插入数据时，当队列满时，会一直等待到队列可以
 #### 上面的论述，体现了Blocking queue最重要的特性，那么怎么实现呢？<br>
 答案是: 结合使用了ReentrantLock，Condition进行对Queue进行操作。<br>
 这个东西太简单了，想想就明白了，不做更深入的研究了。<br>
-
