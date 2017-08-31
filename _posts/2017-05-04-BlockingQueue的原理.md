@@ -4,7 +4,7 @@ title: BlockingQueue的原理
 comments: true
 author: "Yin Haomin"
 tags:
-    - 原理
+    - 原理
     - Blocking queue
 ---
 
