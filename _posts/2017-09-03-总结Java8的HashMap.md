@@ -8,5 +8,5 @@ tags:
     - 总结
 ---
 
-总结Java8的HashMap<br>
+给自己挖一坑位，总结一下Java8的HashMap。<br>
 
