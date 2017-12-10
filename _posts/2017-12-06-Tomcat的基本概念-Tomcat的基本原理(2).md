@@ -29,19 +29,21 @@ Tomcat是一个Web应用服务器，它可以运行JSP和Servlet. <br>
 (2). Tomcat的各个配置的含义<br>
 server.xml，主要是这个Server的相关描述，以下是server.xml的配置的含义<br>
 
-![gras](/images/Tomcat/TomcatServerXml.jpeg)<br>
+![gras](https://raw.githubusercontent.com/digbase/digbase.github.io/master/images/Tomcat/TomcatServerXml.jpeg)<br>
 
 web.xml的配置说明 <br>
 
-|类型|是否共享|
+|类型|标签|
 |:-------|:-------|
 |欢迎文件|welcome-file-list|
 |报错文件|error-page|
 |会话超时|session-config|
 |过滤器|filter|
 
+
 各种过滤器<br>
 
+|类型|含义|
 |:-------|:-------|
 |Authentication Filters|身份验证的过滤器|
 |Logging and Auditing Filters|日志和审核的过滤|
