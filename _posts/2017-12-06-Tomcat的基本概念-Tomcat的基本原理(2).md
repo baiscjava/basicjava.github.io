@@ -17,3 +17,27 @@ Tomcat是一个Web应用服务器，它可以运行JSP和Servlet. <br>
 3. tomcat根目录在tomcat中叫<CATALINA_HOME> <br>
 4. 管理Tomcat的地址: http://localhost:8080/manager/html<br>
 5. Tomcat的基本组成分为：Server, Service, Connector, Engine, Host, Context等模块。<br>
+
+#### 2. 从表面看Tomcat<br>
+(1). Tomcat的各个路径的含义<br>
+<CATALINA_HOME>/lib：存放Tomcat运行需要的库文件(JARS)<br>
+<CATALINA_HOME>/logs：存放Tomcat执行时的LOG文件; <br>
+<CATALINA_HOME>/temp：<br>
+<CATALINA_HOME>/webapps：Tomcat的主要Web发布目录(包括应用程序示例); <br>
+<CATALINA_HOME>/work：存放JSP编译后产生的class文件; <br>
+
+(2). Tomcat的各个配置的含义<br>
+Server.xml，主要是这个Server的相关描述。<br>
+```
+
+```
+
+
+
+
+
+
+
+
+
+
