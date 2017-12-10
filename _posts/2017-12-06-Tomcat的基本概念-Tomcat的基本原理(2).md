@@ -28,9 +28,7 @@ CATALINA_HOME/work：存放JSP编译后产生的class文件; <br>
 
 (2). Tomcat的各个配置的含义<br>
 server.xml，主要是这个Server的相关描述，以下是server.xml的配置的含义<br>
-
 ![gras](/images/Tomcat/TomcatServerXml.jpeg)<br>
-
 web.xml的配置说明 <br>
 
 |类型|标签|
