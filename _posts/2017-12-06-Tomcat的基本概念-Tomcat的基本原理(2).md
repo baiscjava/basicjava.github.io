@@ -27,9 +27,15 @@ Tomcat是一个Web应用服务器，它可以运行JSP和Servlet. <br>
 <CATALINA_HOME>/work：存放JSP编译后产生的class文件; <br>
 
 (2). Tomcat的各个配置的含义<br>
-Server.xml，主要是这个Server的相关描述。<br>
+server.xml，主要是这个Server的相关描述，以下是server.xml的配置的含义<br>
 
-![gras](/images/Tomcat/TomcatServerXml.jpeg)
+![gras](/images/Tomcat/TomcatServerXml.jpeg) <br>
+
+web.xml的配置说明 <br>
+欢迎文件配置: <welcome-file-list> <br>
+报错文件配置: <error-page> <br>
+会话超时配置: <session-config> <br>
+过滤器的配置: <filter> <br>
 
 
 
