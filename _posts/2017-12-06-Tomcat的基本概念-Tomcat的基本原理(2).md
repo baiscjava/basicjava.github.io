@@ -33,7 +33,21 @@ server.xml，主要是这个Server的相关描述，以下是server.xml的配置
 
 web.xml的配置说明 <br>
 
+|类型|是否共享|
+|:-------|:-------|
+|欢迎文件|welcome-file-list|
+|报错文件|error-page|
+|会话超时|session-config|
+|过滤器|filter|
 
+各种过滤器<br>
+
+|:-------|:-------|
+|Authentication Filters|身份验证的过滤器|
+|Logging and Auditing Filters|日志和审核的过滤|
+|Image conversion Filters|图片转化的过滤|
+|Data compression Filters|数据压缩的过滤|
+|Encryption Filters|加密过滤|
 
 
 
