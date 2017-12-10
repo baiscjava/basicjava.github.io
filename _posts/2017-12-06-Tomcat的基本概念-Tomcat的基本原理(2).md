@@ -14,7 +14,7 @@ tags:
 Tomcat是一个Web应用服务器，它可以运行JSP和Servlet. <br>
 1. Tomcat启动的核心，就是启动Catalina容器<br>
 2. CATALINA_HOME/conf/目录下的context.xml和web.xml在部署任何webapp时都会启动，他们定义一些默认行为，而具体每个webapp的META-INF/context.xml  和WEB-INF/web.xml则定义了每个webapp特定的行为。<br>
-3. tomcat根目录在tomcat中叫<CATALINA_HOME> <br>
+3. tomcat根目录在tomcat中叫CATALINA_HOME <br>
 4. 管理Tomcat的地址: http://localhost:8080/manager/html<br>
 5. Tomcat的基本组成分为：Server, Service, Connector, Engine, Host, Context等模块。<br>
 
@@ -29,7 +29,7 @@ CATALINA_HOME/work：存放JSP编译后产生的class文件; <br>
 (2). Tomcat的各个配置的含义<br>
 server.xml，主要是这个Server的相关描述，以下是server.xml的配置的含义<br>
 
-![gras](https://raw.githubusercontent.com/digbase/digbase.github.io/master/images/Tomcat/TomcatServerXml.jpeg)<br>
+![gras](/images/Tomcat/TomcatServerXml.jpeg)<br>
 
 web.xml的配置说明 <br>
 
