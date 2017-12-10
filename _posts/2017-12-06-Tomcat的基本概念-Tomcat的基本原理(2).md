@@ -40,7 +40,6 @@ web.xml的配置说明 <br>
 |会话超时|session-config|
 |过滤器|filter|
 
-
 各种过滤器<br>
 
 |类型|含义|
@@ -50,7 +49,6 @@ web.xml的配置说明 <br>
 |Image conversion Filters|图片转化的过滤|
 |Data compression Filters|数据压缩的过滤|
 |Encryption Filters|加密过滤|
-
 
 #### 3. Tomcat的基本组成<br>
 Tomcat由以下几部分组成：Server, Service, Connector, Engine, Host, Context等模块。<br>
