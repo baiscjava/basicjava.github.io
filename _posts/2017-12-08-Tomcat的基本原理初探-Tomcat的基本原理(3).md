@@ -16,5 +16,5 @@ Tomcat是一个开源的Java Web应用服务器，实现了Java EE(Java Platform
 * Servlet: Server Applet是Java Servlet的简称，从原理上讲，Servlet可以响应任何类型的请求，但绝大多数情况下Servlet只用来扩展基于HTTP协议的Web服务器。<br>
 * JSTL: JavaServer Pages Standard Tag Library，JSP标准标签库，是一个不断完善的开放源代码的JSP标签库。<br>
 * WebSocket: WebSocket协议是基于TCP的一种新的网络协议。它实现了浏览器与服务器全双工(full-duplex)通信——允许服务器主动发送信息给客户端。<br>
-
+#### Tomcat的原理
 
