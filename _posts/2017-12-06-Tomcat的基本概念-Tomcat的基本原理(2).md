@@ -29,7 +29,6 @@ Tomcat是一个Web应用服务器，它可以运行JSP和Servlet. <br>
 (2). Tomcat的各个配置的含义<br>
 Server.xml，主要是这个Server的相关描述。<br>
 ![gras](/images/Tomcat/Tomcat-server-xml-info.jpeg)<br>
-![gras](/images/designpattern/DesignPattern-FacedePattern.png)<br>
 
 
 
