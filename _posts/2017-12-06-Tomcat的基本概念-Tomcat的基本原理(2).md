@@ -54,6 +54,21 @@ web.xml的配置说明 <br>
 
 #### 3. Tomcat的基本组成<br>
 Tomcat由以下几部分组成：Server, Service, Connector, Engine, Host, Context等模块。<br>
+* Server：代表整个Catalina servlet container<br>
+* Service: 由1 or 多个Connector组成，以及一个Engine，负责处理所有的Connector所获得的客户请求<br>
+* Connector: 在指定端口监听请求，将请求交给Engine处理，从Engine获取回应并返回给客户<br>
+Tomcat有两个典型的Connector，一个监听browser的http请求，一个监听来自其他WebServer的请求<br>
+Coyote Http/1.1 Connector 在端口8080处侦听来自客户browser的http请求<br>
+Coyote JK2 Connector 在端口8009处侦听来自其它WebServer(Apache)的servlet/jsp代理请求<br>
+* Engine: 当获取一个请求时，将请求匹配到某个Host上，将请求交给Host处理，Engine有一个默认的虚拟主机，如果无法匹配到任何一个Host，就交给这个默认的Host处理<br>
+* Host: 就是Virtual Host，虚拟主机，每个虚拟主机和某个网络域名Domain Name匹配<br>
+一个Host上面可以部署多个Web App，每个Web App对应一个Context，有一个Context path。<br>
+当Host获取到一个请求的时候，就将请求匹配到一个Context上面，然后将该请求交给该Context处理。<br>
+匹配的方法是“最长匹配”，所以一个path==”"的Context将成为该Host的默认Context<br>
+所有无法和其它Context的路径名匹配的请求都将最终和该默认Context匹配<br>
+* Context：对应一个Web application，一个Web app由一个或多个Servlet组成<br>
+Context创建时，会将CATALINA_HOME/conf/web.xml和WEBAPP_HOME/WEB-INF/web.xml载入到Servlet类<br>
+当Context获取请求时，将在自己的映射表(mapping table)中寻找相匹配的Servlet类<br>
 
 
 
