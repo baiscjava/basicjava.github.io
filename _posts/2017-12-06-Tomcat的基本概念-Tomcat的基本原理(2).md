@@ -54,6 +54,8 @@ web.xml的配置说明 <br>
 Tomcat由以下几部分组成：Server, Service, Connector, Engine, Host, Context等模块。<br>
 下面这张图是其逻辑关系:<br>
 
+![gras](/images/Tomcat/tomcat-one-request.jpeg)<br>
+
 * Server：代表整个Catalina servlet container<br>
 * Service: 由1 or 多个Connector组成，以及一个Engine，负责处理所有的Connector所获得的客户请求<br>
 * Connector: 在指定端口监听请求，将请求交给Engine处理，从Engine获取回应并返回给客户<br>
