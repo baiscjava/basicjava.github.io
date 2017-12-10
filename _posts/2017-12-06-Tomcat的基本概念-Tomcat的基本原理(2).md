@@ -52,7 +52,8 @@ web.xml的配置说明 <br>
 |Encryption Filters|加密过滤|
 
 
-
+#### 3. Tomcat的基本组成<br>
+Tomcat由以下几部分组成：Server, Service, Connector, Engine, Host, Context等模块。<br>
 
 
 
