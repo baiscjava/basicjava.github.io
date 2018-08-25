@@ -27,13 +27,13 @@ Redis和Java的哈希函数：https://www.jianshu.com/p/bb64cd7593ab<br>
 (2).而Character、Integer、Long、Double的hashCode方法返回包装的基本类型;<br>
 String的hashCode返回其值计算出来的信息；<br>
 (3).如果重写了对象的hashCode()方法的话，则会更改对象在对象头中的MarkWord的hashCode部分的信息；<br>
-(4).What is the best way to implements the hashCode() function?<br>
+2. What is the best way to implements the hashCode() function?<br>
 视业务而定，但一般将所有的值都考虑进去；<br>
-(5).hashCode和equals的重写的逻辑关系？<br>
+3. hashCode和equals的重写的逻辑关系？<br>
 hashCode<br>
-A.对于同一个对象，多次调用，都返回同一个；<br>
-B.如果equals，则hashCode一定相等；<br>
-C.如果hashCode相等，但是equals不一定相等；<br>
+(1).对于同一个对象，多次调用，都返回同一个；<br>
+(2).如果equals，则hashCode一定相等；<br>
+(3).如果hashCode相等，但是equals不一定相等；<br>
 equals几个特性；<br>
 自反性，对称性，传递性，一致性；<br>
 
