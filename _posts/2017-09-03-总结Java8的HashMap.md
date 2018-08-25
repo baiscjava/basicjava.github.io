@@ -20,7 +20,7 @@ tags:
 2. Java 8为了解决这个问题，当同一个hash值大于等于8的时候(不是7)，将不再使用链表存储；<br>
 JDK7与JDK8中HashMap的实现：http://www.importnew.com/23164.html<br>
 
-那么问题来了，<br>
+那么问题来了:<br>
 1. hashCode默认是如何计算出来的呢？<br>
 Redis和Java的哈希函数：https://www.jianshu.com/p/bb64cd7593ab<br>
 (1).由此可见，java的Object的默认hashCode是通过Park-Miller算法计算出来的；<br>
