@@ -10,14 +10,14 @@ tags:
     - Weak
 ---
 
-#### 区分一下Strong,Soft,Weak,Phantom Reference<br>
+#### 区分一下Strong,Soft,Weak,Phantom Reference
 Strong Reference: Java 默认的Reference,强引用当引用存在时，object不会被回收；<br>
 Soft Reference:当内存不得不需要释放的时候，软引用才会被释放，并不会在每一次GC都释放；
 在内存紧张时可能会被回收，不过也可以通过-XX:SoftRefLRUPolicyMSPerMB参数控制回收的时机.<br>
 Weak Reference：每一次GC都释放；<br>
 Phantom Reference: 虚引用，没看懂<br>
 
-#### 下面的英文资料讲的特别好，不翻译；<br>
+#### 下面的英文资料讲的特别好，不翻译；
 Strong Reference:  We use Strong references in Java everywhere: we can create
 an object and then assign it to a reference. Note that if the object has a
 strong reference, this object is never be garbage collected.<br>
@@ -45,6 +45,6 @@ Phantom Reference can be used in situations, where sometimes using finalize()
 is not  sensible.This is a special reference which says that the object was
 already finalized, and the garbage collector is ready to reclaim its memory.<br>
 
-#### 参考资料<br>
+#### 参考资料
 1.[弱引用和软引用WeakReference,SoftReference,最简讲解，以及一个应用场景](https://blog.csdn.net/qq_36523667/article/details/78549874)<br>
 2.[Different Types of References in Java](https://dzone.com/articles/java-different-types-of-references)<br>
