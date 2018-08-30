@@ -46,5 +46,5 @@ is not  sensible.This is a special reference which says that the object was
 already finalized, and the garbage collector is ready to reclaim its memory.<br>
 
 #### 参考资料<br>
-1.[弱引用和软引用WeakReference,SoftReference,最简讲解，以及一个应用场景](https://blog.csdn.net/qq_36523667/article/details/78549874)
-2.[Different Types of References in Java](https://dzone.com/articles/java-different-types-of-references)
+1.[弱引用和软引用WeakReference,SoftReference,最简讲解，以及一个应用场景](https://blog.csdn.net/qq_36523667/article/details/78549874)<br>
+2.[Different Types of References in Java](https://dzone.com/articles/java-different-types-of-references)<br>
